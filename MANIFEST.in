@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+include environment.yml
+recursive-include data *.csv *.tsv *.txt
+recursive-include example *.csv
+recursive-include Protrec2 *.py
